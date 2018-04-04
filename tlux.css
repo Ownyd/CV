@@ -1,0 +1,212 @@
+body
+{
+	font-weight: 300;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	font-style: normal;
+	letter-spacing: .005em;
+	text-transform: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+div.fixed
+{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-color: black;
+}
+div.fixed a
+{
+	color:white;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+div.header
+{
+	height:23vw;
+	width:100%;
+	background-color:black;
+	z-index:-1;
+}
+div.header img
+{
+	height:23vw;
+	width:100%;
+	-webkit-filter: greyscale(100%);
+	filter: grayscale(100%);
+	opacity:0.30;
+}
+
+div.name
+{
+	position:absolute;
+	top:10px;
+	left:20%;
+}
+div.name h1
+{
+	font-size:4vw;
+	color:white;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+div.job
+{
+	position:absolute;
+	top:5px;
+	left:35%;
+}
+div.job h1
+{
+	font-size:6vw;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	color:white;
+}
+
+div.avatar
+{
+	position:absolute;
+	top:20px;
+	left:3%;
+}
+div.avatar img
+{
+	width:15vw;
+	border-radius:1000px;
+	-webkit-filter: greyscale(100%);
+	filter: grayscale(100%);
+	opacity:0.90;
+
+}
+div.index
+{
+	position:absolute;
+	top:30px;
+	right:5%;
+}
+div.index div
+{
+	padding:0px 2vw;
+	vertical-align:top;
+	display:inline-block;
+}
+div.index div a
+{
+	font-size:1vw;
+	color:white;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+a
+{
+	text-decoration: none;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+a:hover
+{
+	opacity:0.50;
+}
+
+#about_me
+{
+	background-color:#E3E3E3;
+	width:100%;
+	text-align:center;
+	padding:50px 0px;
+}
+
+#career
+{
+	background-color:#white;
+	width:100%;
+	text-align:center;
+	padding:50px 0px;
+}
+
+div.highschool img, div.borntocode img, div.jobs img
+{
+	width:5vw;
+
+}
+
+div.highschool, div.borntocode, div.jobs
+{
+	vertical-align:middle;
+	display:inline-block;
+	width:33%;
+}
+
+#skills
+{
+	text-align:center;
+	background-color:#E3E3E3;
+	width:100%;
+}
+
+div.languages, div.expertises, div.environments, div.software
+{
+	display:inline-block;
+	vertical-align:middle;
+	padding :20px 20px;
+	width:20%;
+}
+div.languages hr, div.expertises hr, div.environments hr, div.software hr
+{
+	color:black;
+	width:20%;
+}
+#objectives
+{
+	display:inline-block;
+	background-color:#white;
+	height:30vh;
+	width:100%;
+	text-align:center;
+	padding:50px 0px;
+}
+
+div.for_me
+{
+	display:inline-block;
+	vertical-align:middle;
+	padding :20px 20px;
+}
+div.for_you
+{
+	display:inline-block;
+	vertical-align:middle;
+	padding :20px 20px;
+}
+
+#interests
+{
+	background-color:#E3E3E3;
+	height:30vh;
+	width:100%;
+}
+
+#contact
+{
+	background-color:#white;
+	width:100%;
+	padding:50px 0px 50px 0px;
+	text-align:center;
+}
+
+div.pro, div.perso
+{
+	display:inline-block;
+	margin:0px 100px;
+}
+div.pro h1, div.perso h1
+{
+	text-align:center;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+div.pro img, div.perso img
+{
+	width:2vw;
+}
