@@ -3,9 +3,10 @@
 ?>
 <html>
 	<head>
-		<title>Thibault LUX</title>
+		<title>Thibault LUX - Interactive resume</title>
 		<link rel="stylesheet" href="tlux.css">
 		<link rel="stylesheet" type="text/css" href="resources/fonts/fonts.css" />
+		<LINK rel="SHORTCUT ICON" href="resources/job.ico">
 	</head>
 	<body>
 		<div class="fixed">
@@ -17,13 +18,16 @@
 			<IMG src="resources/42copy.jpeg">
 		</div>
 		<div class="avatar">
-			<img src="resources/avatar.png">
+			<img src="resources/tlux.JPG">
 		</div>
 		<div class="name">
 			<h1>Thibault LUX</h1>
 		</div>
 		<div class="job">
-			<h3>DEVELOPPER.</h3>
+			<h3>DEVELOPPER</h3>
+		</div>
+		<div class="change_language">
+			<a href="/fr">French</a>
 		</div>
 		<div class="index">
 			<a href="#about_me"><div>About me</div></a>
@@ -64,7 +68,7 @@
 
 			</div>
 			<div class="jobs">
-	<h1>Professional Experience</h1><br /><br /><br />
+	<h1>Professional Experience</h1><br />
 				<img src="resources/job.jpg"><br />
 				<h2>None</h2>
 				<p>Be my first one if you want so !</p>
@@ -124,7 +128,7 @@
 			<div class="for_me">
 			<div class="obj_title"><h1>For me :</h1></div>
 			<div class="inverted"><p>The first thing I aim at is professional experience.<br />
-			I never really worked and it's time to prove my worth in company.<br />
+			I never had the opportunity to prove my worth in company.<br />
 			Secondly, it's a way for me to learn plenty of new things.<br />
 			In internship I hope to discover new languages, softwares, and new ways to think.</p></div>
 			</div>
@@ -210,6 +214,12 @@
 			</div>
 		</div>
 		<div class="footer">
+		<div style="display:inline-block; margin-left:15px;">
+		<p style="text-align:left;">© Thibault LUX 2018</p>
+		</div>
+		<div style="display:inline-block; float:right; margin-right:15px;">
+		<p style="text-align:right;">7 Rue Ferdinand Buisson, Clichy-la-Garenne</p>
+		</div>
 		</div>
 	</body>
 </html>
